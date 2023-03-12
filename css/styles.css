@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root{
+   /* colors*/
+    --background-color: #131313;
+    --background-section: #2b2b2b;
+    --background-subsection: #1e1e1e;
+    --color-title: #fff;
+    --color-text: #86868b;
+    --color-primary: #1561f0;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--color-text);
+}

@@ -1,0 +1,113 @@
+{
+	"productos":
+	[
+		0: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item1.png",
+			"categoria": "Star Wars"
+		}
+		1: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item2.png",
+			"categoria": "Star Wars"
+		}
+		2: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item3.png",
+			"categoria": "Star Wars"
+		}
+		3: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item4.png",
+			"categoria": "Star Wars"
+		}
+		4: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item5.png",
+			"categoria": "Star Wars"
+		}
+		5: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item6.png",
+			"categoria": "Star Wars"
+		}
+		6: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item7.png",
+			"categoria": "Star Wars"
+		}
+		7: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item8.png",
+			"categoria": "Star Wars"
+		}
+		8: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item9.png",
+			"categoria": "Star Wars"
+		}
+		9: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item10.png",
+			"categoria": "Star Wars"
+		}
+		10: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item11.png",
+			"categoria": "Star Wars"
+		}
+		11: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item12.png",
+			"categoria": "Star Wars"
+		}
+		12: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item13.png",
+			"categoria": "Star Wars"
+		}
+		13: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item14.png",
+			"categoria": "Star Wars"
+		}
+		14: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item15.png",
+			"categoria": "Star Wars"
+		}
+		15: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item16.png",
+			"categoria": "Star Wars"
+		}
+		16: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item17.png",
+			"categoria": "Star Wars"
+		}
+		17: {
+			"nombre" : "Producto XYZ",
+			"precio" : "60,00",
+			"img": "./assets/item18.png",
+			"categoria": "Star Wars"
+		}
+	]
+}
