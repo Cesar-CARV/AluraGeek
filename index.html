@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Alura Geek</title>
 
     <!-- ICONS -->
@@ -11,12 +11,15 @@
     <!-- STYLES -->
     <link rel="stylesheet" type="text/css" href="./css/buttons.css">
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/section.css" type="text/css">
 
     <link rel="stylesheet" type="text/css" href="./css/input_search.css">
 
-    <link rel="stylesheet" href="./css/banner.css" type="text/css" media="all">
-    <link rel="stylesheet" href="./css/header.css" type="text/css" media="all">
-    <link rel="stylesheet" href="./css/logo.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./css/banner.css" type="text/css">
+    <link rel="stylesheet" href="./css/header.css" type="text/css">
+    <link rel="stylesheet" href="./css/logo.css" type="text/css">
+    <link rel="stylesheet" href="./css/grid.css" type="text/css">
+    <link rel="stylesheet" href="./css/product_card.css" type="text/css">
 
 </head>
 <body>
@@ -36,80 +39,80 @@
             </h1>
         </div>
         <div class="header__section_3">
-    		<a class="btn">Login</a>
+    		<a class="btn" href="">Login</a>
         </div>
 	</header>
 
-	<section class="banner">
+	<section class="banner section">
 		<div class="banner__content">
 			<h2>Febrero Promocional</h2>
 			<p>Productos selecionados con 33% de descuento</p>
-			<a class="btn">Ver Consolas</a>
+			<a class="btn" href="">Ver Consolas</a>
 		</div>
 	</section>
 
 	<section class="section">
-		<div>
-			<h2>Star Wars</h2>
-			<a href="">Ver todo »</a>
+		<div class="section__header">
+			<h2 class="title">Star Wars</h2>
+			<a href="">Ver todo <i class="bx bx-arrow-back bx-rotate-180"></i></a>
 		</div>
-		<div class="flex_grid">
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+		<div class="grid">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item1.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
-					<span>R$ 60,00</span>
+				<div class="product_card__content">
+					<h3 class="product_card__content__title">Producto XYZ</h3>
+					<span class="product_card__content__prices">R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item2.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item3.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item4.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item5.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item6.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
@@ -118,67 +121,67 @@
 	</section>
 
 	<section class="section">
-		<div>
-			<h2>Consolas</h2>
-			<a href="">Ver todo</a>
+		<div class="section__header">
+			<h2 class="title">Consolas</h2>
+			<a href="">Ver todo <i class="bx bx-arrow-back bx-rotate-180"></i></a>
 		</div>
-		<div class="flex_grid">
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+		<div class="grid">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item7.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item8.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item9.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item10.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item11.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item12.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
@@ -187,67 +190,67 @@
 	</section>
 
 	<section class="section">
-		<div>
-			<h2>Diversos</h2>
-			<a href="">Ver todo</a>
+		<div class="section__header">
+			<h2 class="title">Diversos</h2>
+			<a href="">Ver todo <i class="bx bx-arrow-back bx-rotate-180"></i></a>
 		</div>
-		<div class="flex_grid">
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+		<div class="grid">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item13.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item14.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item15.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item16.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item17.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
 			</div>
-			<div class="flex_grid__item">
-				<div class="flex_grid__item__body">
+			<div class="product_card">
+				<div class="product_card__image">
 					<img src="./assets/item18.png" alt="">
 				</div>
-				<div class="flex_grid__item__footer">
-					<span>Producto XYZ</span>
+				<div class="product_card__content">
+					<h3>Producto XYZ</h3>
 					<span>R$ 60,00</span>
 					<a href="">Ver producto</a>
 				</div>
@@ -257,7 +260,9 @@
 
 	<section class="section section--sky">
 		<nav>
-			<img src="./assets/Logo.png" alt="logo">
+            <h2 class="logo">
+                <span><i class='bx bxs-joystick'></i> Alura</span>Geek
+            </h2>
 			<ul class="nav__list">
 				<li class="nav__list__item"><a href="" class="nav__list__item__a">Quienes somos</a></li>
 				<li class="nav__list__item"><a href="" class="nav__list__item__a">Política de privacidad</a></li>
