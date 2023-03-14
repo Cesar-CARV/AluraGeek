@@ -1,5 +1,6 @@
 .banner{
-    height: 30vh;
+    height: 60vh;
+    max-height: 200px;
     background-image: url('../assets/Hero.png');
     background-size: cover;
     background-position: center;
@@ -8,6 +9,28 @@
 }
 
 .banner__content{
-    display: flex;
-    flex-direction: column;
+    font-size: 1rem;
+    padding: 1rem;
+    flex-grow: 0;
+    max-width: fit-content;
+    color: var(--color-title);
+}
+
+.banner__content > h2, .banner__content > p {
+    text-shadow: 0 0 5px var(--color-text);
+}
+
+.banner__content > .btn {
+    margin-top: .5rem;
+    max-width: fit-content;
+}
+
+@media (min-width: 542px){
+    .banner{
+        max-height: 400px;
+    }
+
+    .banner__content{
+        font-size: 1.5rem;
+    }
 }
