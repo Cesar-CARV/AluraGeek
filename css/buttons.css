@@ -1,7 +1,11 @@
 .btn{
     display: block;
     cursor: pointer;
+    border-radius: 1rem;
     border: none;
+    font-size: 1rem;
+    text-align: center;
+    color: var(--background-color);
     background-color: var(--color-title);
-    padding: .5rem 1rem;
+    padding: .3rem 1rem;
 } 

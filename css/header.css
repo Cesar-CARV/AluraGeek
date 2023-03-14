@@ -1,20 +1,39 @@
 .header {
     display: flex;
-    padding: .5rem 2rem;
-    justify-content: space-between;
     align-items: center;
+    padding: .5rem 2rem;
 }
 
-.header > div {
+.header > div{
     flex-grow: 1;
     flex-shrink: 1;
-}
-
-.header > div:nth-child(2){
-    text-align: center;
-}
-
-.header > div:nth-child(3){
+    width: 100%;
     display: flex;
+}
+
+.header > .header__section_1{
+    display: none;
+    justify-content: start;
+}
+
+.header > .header__section_2{
+    justify-content: center;
+    min-width: fit-content;
+}
+
+.header > .header__section_3{
     justify-content: end;
 }
+
+
+@media (min-width: 542px){
+    .header__section_2{
+        margin: 0 1rem;
+        justify-content: center;
+    }
+
+    .header > .header__section_1{
+        display: flex;
+    }
+}
+
