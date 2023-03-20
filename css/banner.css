@@ -1,6 +1,6 @@
 .banner{
     height: 60vh;
-    max-height: 200px;
+    max-height: 400px;
     background-image: url('../assets/Hero.png');
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@
 }
 
 .banner__content > h2, .banner__content > p {
-    text-shadow: 0 0 5px var(--color-text);
+   /* text-shadow: 0 0 5px var(--color-text);*/
 }
 
 .banner__content > .btn {

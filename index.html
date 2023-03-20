@@ -21,6 +21,12 @@
     <link rel="stylesheet" href="./css/grid.css" type="text/css">
     <link rel="stylesheet" href="./css/product_card.css" type="text/css">
 
+    <link rel="stylesheet" href="./css/nav.css" type="text/css">
+    <link rel="stylesheet" href="./css/input_box/input_box.css" type="text/css">
+    <link rel="stylesheet" href="./css/input_box/input_box_title.css" type="text/css">
+    <link rel="stylesheet" href="./css/input_box/input_box_input.css" type="text/css">
+    <link rel="stylesheet" href="./css/contact_form.css" type="text/css">
+    <link rel="stylesheet" href="./css/footer.css" type="text/css">
 </head>
 <body>
 
@@ -258,8 +264,8 @@
 		</div>
 	</section>
 
-	<section class="section section--sky">
-		<nav>
+	<section class="section section--color">
+		<nav class="nav">
             <h2 class="logo">
                 <span><i class='bx bxs-joystick'></i> Alura</span>Geek
             </h2>
@@ -273,22 +279,22 @@
 			</ul>
 		</nav>
 			
-		<form action="">
-			<h2>Habla con nosotros</h2>
+		<form action="" class="contact_form">
+			<h2 class="title">Habla con nosotros</h2>
 			<label class="input_box">
 				<input type="text" id="input_name" name="name" class="input_box__input" required>
 				<span class="input_box__title">Nombre</span>
 			</label>
-			<label class="input_box input_box--open">
-				<textarea id="input_message" name="message" class="input_box__input" cols="30" rows="2" require></textarea>
+			<label class="input_box">
+				<textarea id="input_message" name="message" class="input_box__input" cols="30" rows="2" required></textarea>
 				<span class="input_box__title">Mensaje</span>
 			</label>
 
-			<button type="submit" class="btn_primary">Enviar Mensaje</button>
+			<button type="submit" class="btn">Enviar Mensaje</button>
 		</form>
 	</section>
 
-	<footer class="section">
+	<footer class="section footer">
 		<p>
 			Desarrollado por Cesar Ruiz <br>
 			2023

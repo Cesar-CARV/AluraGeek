@@ -21,6 +21,11 @@
     padding: .2rem .5rem;
 }
 
+
+.section--color{
+    background-color: var(--background-section);
+}
+
 @media (min-width: 542px){
     .section{
         padding: 1rem 3rem 3rem 3rem;
