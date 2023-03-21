@@ -3,6 +3,9 @@
     height: fit-content;
     overflow: hidden;
     background-color: var(--background-section);
+    flex-shrink: 0;
+    flex-grow: 1;
+    scroll-snap-align: start;
 }
 
 .product_card__image{

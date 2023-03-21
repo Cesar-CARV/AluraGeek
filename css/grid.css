@@ -6,28 +6,13 @@
 
 @media (min-width: 542px){
     .grid{
-        grid-template-columns: repeat(3, 1fr);
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        overflow: scroll;
+        scroll-snap-type: x mandatory;
     }
 
 }
 
-@media (min-width: 700px){
-    .grid{
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
-
-
-@media (min-width: 1000px){
-    .grid{
-        grid-template-columns: repeat(5, 1fr);
-    }
-}
-
-
-@media (min-width: 1200px){
-    .grid{
-        grid-template-columns: repeat(6, 1fr);
-    }
-}
 
