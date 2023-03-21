@@ -1,0 +1,14 @@
+@media (min-width: 700px){
+    .section_contact{
+        display: flex;
+    }
+
+    .section_contact > .nav{
+        flex-grow: 3;
+    }
+
+
+    .section_contact > .contact_form{
+        flex-grow: 5;
+    }
+}
