@@ -1,0 +1,27 @@
+.login{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem 0;
+}
+
+.login > form {
+	width: clamp(300px, 80%, 500px);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.login > form > .input_box{
+	width: 100%;
+}
+
+.login > form > button{
+	width: 100%;
+	height: 3rem;
+	max-width: 100%;
+}

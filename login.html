@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alura Geek</title>
+
+    <!-- ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="./css/buttons.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/section.css" type="text/css">
+    <link rel="stylesheet" href="./css/section_contact.css" type="text/css">
+    <link rel="stylesheet" href="./css/login.css" type="text/css">
+
+    <link rel="stylesheet" type="text/css" href="./css/input_search.css">
+
+    <link rel="stylesheet" href="./css/banner.css" type="text/css">
+    <link rel="stylesheet" href="./css/header.css" type="text/css">
+    <link rel="stylesheet" href="./css/logo.css" type="text/css">
+
+    <link rel="stylesheet" href="./css/nav.css" type="text/css">
+    <link rel="stylesheet" href="./css/input_box/input_box.css" type="text/css">
+    <link rel="stylesheet" href="./css/input_box/input_box_title.css" type="text/css">
+    <link rel="stylesheet" href="./css/input_box/input_box_input.css" type="text/css">
+    <link rel="stylesheet" href="./css/contact_form.css" type="text/css">
+    <link rel="stylesheet" href="./css/footer.css" type="text/css">
+</head>
+<body>
+
+	<header class="header">
+        <div class="header__section_1">
+            <label class="input_search">
+                <input type="search" name="" id="" value="" placeholder="¿Que deseas buscar?">
+                <button type="button">
+                    <i class="bx bx-search"></i>
+                </button>
+            </label>
+        </div>
+        <div class="header__section_2">
+            <h1 class="logo">
+                <a class="nav__list__item__a" href="./index.html"><span><i class='bx bxs-joystick'></i> Alura</span>Geek</a>
+            </h1>
+        </div>
+        <div class="header__section_3">
+        </div>
+	</header>
+
+	<section class="section login">
+		<div class="section__header">
+			<h2 class="title">Iniciar sesion</h2>
+		</div>
+		<form class="">
+			<label class="input_box">
+				<input type="text" id="input_name" name="name" class="input_box__input" required>
+				<span class="input_box__title">Escriba su correo electronico</span>
+			</label>
+			<label class="input_box">
+				<input type="text" id="input_name" name="name" class="input_box__input" required>
+				<span class="input_box__title">Escriba su contraseña</span>
+			</label>
+			<button type="submit" class="btn">
+				Entrar
+			</button>
+		</form>
+	</section>
+
+	<section class="section section--color section_contact">
+		<nav class="nav">
+            <h2 class="logo">
+                <span><i class='bx bxs-joystick'></i> Alura</span>Geek
+            </h2>
+			<ul class="nav__list">
+				<li class="nav__list__item"><a href="" class="nav__list__item__a">Quienes somos</a></li>
+				<li class="nav__list__item"><a href="" class="nav__list__item__a">Política de privacidad</a></li>
+				<li class="nav__list__item"><a href="" class="nav__list__item__a">Programa de fidelidad</a></li>
+				<li class="nav__list__item"><a href="" class="nav__list__item__a">Nuestras tiendas</a></li>
+				<li class="nav__list__item"><a href="" class="nav__list__item__a">Quiero ser franquiciado</a></li>
+				<li class="nav__list__item"><a href="" class="nav__list__item__a">Anúncie aquí</a></li>
+			</ul>
+		</nav>
+			
+		<form action="" class="contact_form">
+			<h2 class="title">Habla con nosotros</h2>
+			<label class="input_box">
+				<input type="text" id="input_name" name="name" class="input_box__input" required>
+				<span class="input_box__title">Nombre</span>
+			</label>
+			<label class="input_box">
+				<textarea id="input_message" name="message" class="input_box__input" cols="30" rows="2" required></textarea>
+				<span class="input_box__title">Escribe tu mensaje</span>
+			</label>
+
+			<button type="submit" class="btn">Enviar Mensaje</button>
+		</form>
+	</section>
+
+	<footer class="section footer">
+		<p>
+			Desarrollado por Cesar Ruiz <br>
+			2023
+		</p>
+	</footer>
+
+	<script type="text/javascript" src="./js/header_controller.js"></script>
+</body>
+</html  

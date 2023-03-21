@@ -16,8 +16,11 @@
 }
 
 .header > .header__section_1{
-    display: none;
     justify-content: start;
+}
+
+.header > .header__section_1 .input_search input{
+    width: 0;
 }
 
 .header > .header__section_2{
@@ -27,8 +30,23 @@
 
 .header > .header__section_3{
     justify-content: end;
+    min-width: fit-content;
 }
 
+
+@media (max-width: 541px){
+    .header_search > div:not(:first-child){
+        display: none;
+    }
+
+    .header_search > .header__section_1 > .input_search > input{
+        width: fit-content;
+    }
+
+    .header_search > .header__section_1{
+        justify-content: center;
+    }
+}
 
 @media (min-width: 542px){
     .header__section_2{
@@ -38,6 +56,9 @@
 
     .header > .header__section_1{
         display: flex;
+    }
+    .header > .header__section_1 .input_search  input{
+        width: fit-content;
     }
 }
 
